@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Handoff"
+  short_description: "在切换线程、账号或 Agent 时生成安全的项目交接材料。"
+  default_prompt: "Use $project-handoff to prepare a safe handoff for a new Codex task."
+policy:
+  allow_implicit_invocation: true

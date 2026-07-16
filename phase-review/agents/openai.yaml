@@ -1,0 +1,6 @@
+interface:
+  display_name: "Phase Review"
+  short_description: "在完整阶段结束或准备本地提交时进行范围、规格和代码质量复核。"
+  default_prompt: "Use $phase-review to review this completed phase against its fixed baseline and specification."
+policy:
+  allow_implicit_invocation: true

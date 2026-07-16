@@ -1,0 +1,6 @@
+interface:
+  display_name: "Systematic Debugging"
+  short_description: "对 Bug、失败和性能问题执行可复现、可验证的根因诊断。"
+  default_prompt: "Use $systematic-debugging to diagnose this failure from a reproducible signal."
+policy:
+  allow_implicit_invocation: true
