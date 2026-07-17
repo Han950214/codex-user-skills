@@ -1,0 +1,121 @@
+﻿{
+  "installed_at": "2026-07-17T00:12:24.3045783+08:00",
+  "updated_at": "2026-07-17T20:01:52.6296378+08:00",
+  "user_skill_root": "C:\\Users\\韩立伟\\.agents\\skills",
+  "sources": [
+    {
+      "repo": "mattpocock/skills",
+      "ref": "v1.1.0",
+      "commit": "d574778f94cf620fcc8ce741584093bc650a61d3",
+      "tag_object": "eabea89380927aadb93abf6e290a19334d249292",
+      "license": "MIT"
+    },
+    {
+      "repo": "anthropics/skills",
+      "ref": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+      "commit": "9d2f1ae187231d8199c64b5b762e1bdf2244733d",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "ref": "2b202640ee89dc7aadb5e8c9d600e089e9056985",
+      "commit": "2b202640ee89dc7aadb5e8c9d600e089e9056985",
+      "license": "Apache-2.0"
+    },
+    {
+      "repo": "anthropics/skills",
+      "ref": "fa0fa64bdc967915dc8399e803be67759e1e62b8",
+      "commit": "fa0fa64bdc967915dc8399e803be67759e1e62b8",
+      "license": "Apache-2.0"
+    }
+  ],
+  "inspected_sources": [
+    {
+      "repo": "Ixe1/ui-from-image",
+      "ref": "87ebe2e9b99ae22ae76deaa2a20aae66b43adb63",
+      "license_found": false,
+      "files_copied": false
+    }
+  ],
+  "global_skills": [
+    "project-handoff",
+    "systematic-debugging",
+    "targeted-tdd",
+    "phase-review",
+    "agent-browser",
+    "frontend-design"
+  ],
+  "global_skill_details": {
+    "agent-browser": {
+      "scope": "user/global",
+      "install_path": "C:\\Users\\韩立伟\\.agents\\skills\\agent-browser",
+      "upstream_repository": "https://github.com/vercel-labs/agent-browser.git",
+      "upstream_skill_path": "skills/agent-browser",
+      "source_commit": "2b202640ee89dc7aadb5e8c9d600e089e9056985",
+      "retrieved_at": "2026-07-17",
+      "license": "Apache-2.0",
+      "cli_package": "agent-browser",
+      "cli_version": "0.32.1",
+      "runtime_installed": true,
+      "runtime_path": "C:\\Users\\韩立伟\\.agent-browser\\browsers\\chrome-151.0.7922.34",
+      "auto_invocation_enabled": true,
+      "update_method": "Review current official README and Skill path, then reinstall from a verified upstream commit and update the npm CLI from the official registry."
+    },
+    "frontend-design": {
+      "scope": "user/global",
+      "install_path": "C:\\Users\\韩立伟\\.agents\\skills\\frontend-design",
+      "upstream_repository": "https://github.com/anthropics/skills.git",
+      "upstream_skill_path": "skills/frontend-design",
+      "source_commit": "fa0fa64bdc967915dc8399e803be67759e1e62b8",
+      "retrieved_at": "2026-07-17",
+      "license": "Apache-2.0",
+      "auto_invocation_enabled": true,
+      "update_method": "Review the current official repository, then replace only from a verified upstream commit while preserving LICENSE.txt."
+    }
+  },
+  "repo_skills": {
+    "E:\\Workspace\\projects\\project_001_AOS": {
+      "status": "installed",
+      "baseline_head": "acf30bce002bae70ae1c9f4c3e9de037d879cc61",
+      "commit": "32e4fd07b8a4e75cf56e93e4f8aceae2774899b6",
+      "skills": [
+        "aos-codebase-design",
+        "aos-intentional-ui-design",
+        "aos-ui-prototype",
+        "aos-reference-ui-implementation",
+        "aos-visual-ui-review"
+      ]
+    },
+    "E:\\Workspace\\projects\\project_002_SearchLens": {
+      "status": "installed",
+      "baseline_head": "6999275092291d65ff66b1c2914d7dcecf702eae",
+      "commit": "2e611d46a11c117e38e6b3ad141e7b908d16ea83",
+      "skills": [
+        "searchlens-intentional-ui-design",
+        "searchlens-ui-prototype",
+        "searchlens-reference-ui-implementation",
+        "searchlens-visual-ui-review"
+      ]
+    },
+    "E:\\Workspace\\projects\\project_003_codex_token_monitor": {
+      "status": "installed",
+      "baseline_head": "4c6c77cb7ec9654c585d5a6a3140c67643e54b1d",
+      "commit": "5ba30b795b145821f5040cbff487170a6679a83d",
+      "commits": [
+        "32f4c5b97997f789f6cb5f44c18850a9529aee05",
+        "5ba30b795b145821f5040cbff487170a6679a83d"
+      ],
+      "skills": [
+        "token-monitor-desktop-ui-design",
+        "token-monitor-ui-prototype",
+        "token-monitor-reference-ui-implementation",
+        "token-monitor-desktop-visual-review"
+      ]
+    }
+  },
+  "backups": [],
+  "skipped": [],
+  "issues": [
+    "skill-creator quick_validate.py could not import PyYAML from the available bundled Python. A dependency-free validator covered the installed YAML subset, structure, metadata, UPSTREAM fields, licenses, dangerous-command wording, nested Git, scripts and secret checks; all three repository diff checks were executed separately and by the validator's repo mode."
+  ]
+}
